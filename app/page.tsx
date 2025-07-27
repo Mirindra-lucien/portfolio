@@ -1,36 +1,23 @@
+import myPhoto from "./sur_burea.jpg";
+import mobilePhoto from "./sur_burea_mobile.jpg";
+import Image from 'next/image';
+
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <h1>
-          Fullstack web developer<br/>&<br/>Electronics engineer and automation
-        </h1>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors
-            flex items-center justify-center bg-foreground text-background gap-2
-            hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12
-            px-4 sm:px-5"
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Hire me
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08]
-            dark:border-white/[.145] transition-colors flex items-center justify-center
-            hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm
-            sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Resume
-          </a>
-        </div>
-      </main>
+    <div className="relative w-full h-screen">
+      <Image src={myPhoto} alt="Ma photo"
+        fill
+        className="hidden sm:block object-cover"
+      />
+      <Image src={mobilePhoto} alt="My photo"
+        fill
+        className="block sm:hidden object-cover"
+      />
+      <div className="absolute inset-0 w-full h-screen bg-arriere bg-opacity-80"/>
+      <div className="absolute top-1/2 left1/2 w-full">
+        <h2 className="text-l text-center">Hello, I'm Mirindra</h2>
+        <h1 className="text-xl sm:text-3xl text-center">Fullstack web developer<br/>&<br/>Electronics engineer and automation</h1>
+      </div>
     </div>
   );
 }
