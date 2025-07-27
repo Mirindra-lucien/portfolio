@@ -1,6 +1,6 @@
 import myPhoto from "./sur_burea.jpg";
 import mobilePhoto from "./sur_burea_mobile.jpg";
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Home() {
   return (
