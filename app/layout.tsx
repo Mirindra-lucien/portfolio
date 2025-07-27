@@ -26,7 +26,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
     {href: "/projects", content: "Projects"},
     {href: "/mirindra", content: "About me"},
     {href: "/contacts", content: "Contacts"},
-  ];
+  ]
   return (
     <html lang="en">
       <body
@@ -39,7 +39,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
             </div>
             <div className="hidden sm:flex items-center space-x-4">
               {
-                navigationLinks.map((value, index, array) => (
+                navigationLinks.map((value, index) => (
                   <Link key={index} href={value.href} className="hover:text-gray-300">
                     {value.content}
                   </Link>
