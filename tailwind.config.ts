@@ -12,7 +12,8 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         arriere : "#0B162C",
-        nav: "#1C2942"
+        nav: "#1C2942",
+        secondary: "#FFFC0A"
       },
     },
   },
