@@ -1,6 +1,6 @@
 export default function Services(){
     return <section id="services" className="container w-screen pt-16">
-        <h2 className="flex w-full justify-center mb-16">Services</h2>
+        <h2 className="flex w-full justify-center mb-4">Services</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-rows-3 justify-center gap-4">
         <div className="flex flex-col border-2 border-white-200 rounded-lg divide-y
         divide-gray-300 p-4">

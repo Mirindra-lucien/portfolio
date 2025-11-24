@@ -1,5 +1,5 @@
 function AboutMe(){
-    return <section id="aboutMe" className="w-screen sm:h-screen flex flex-col items-center justify-center gap-6">
+    return <section id="aboutMe" className="w-screen sm:h-screen flex flex-col items-center justify-center gap-2 pt-10">
         <h2 className="text-center">About me</h2>
         <p className="text-center px-4 sm:px-10 md:px-20">
             I am Mirindra L., a passionate Full Stack develper with a background in Electronics

@@ -1,6 +1,6 @@
 export default function Projects(){
     return <section id="skills" className="container w-screen pt-16 mx-auto">
-        <h2 className="flex w-full justify-center mb-16">Skills</h2>
+        <h2 className="flex w-full justify-center">Skills</h2>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
         <div className="flex flex-col p-4">
             <div>
