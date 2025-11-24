@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Link from "next/link";
 import { Menu } from "lucide-react";
+import Footer from "./components/footer";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -23,15 +24,15 @@ export const metadata: Metadata = {
 
 export default function RootLayout({children}: Readonly<{children: React.ReactNode;}>) {
   const navigationLinks = [
-    {href: "/services", content: "Services"},
-    {href: "/projects", content: "Projects"},
-    {href: "/mirindra", content: "About me"},
-    {href: "/contacts", content: "Contacts"},
+    {href: "/#aboutMe", content: "About me"},
+    {href: "/#services", content: "Services"},
+    {href: "/#skills", content: "Skills"},
+    {href: "/#contacts", content: "Contacts"},
   ]
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-arriere overflow-auto`}
       >
         <nav className="fixed top-0 left-0 w-full bg-nav text-white py-4 z-10">
           <div className="container mx-auto flex justify-between items-center">
@@ -55,6 +56,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
           </div>
         </nav>
         {children}
+        <Footer/>
       </body>
     </html>
   );
