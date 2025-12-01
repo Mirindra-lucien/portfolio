@@ -27,14 +27,16 @@ export default function Home() {
               {"\u0026"}<br/>Electronics engineer and automation
             </h1>
             <div className="flex justify-center">
-              <button className="block border-2 rounded-full border-secondary text-sm md:text-md shadow-md m-2 p-1 px-4 md:px-12
-                hover:bg-white-700 transition text-secondary"
+              <a href="/#contacts" className="block border-2 rounded-full border-secondary text-sm md:text-md shadow-md m-2 p-1 px-2 md:px-8
+                hover:bg-secondary hover:text-blue-700 hover:shadow-lg hover:shadow-secondary transition text-secondary"
               >
-                Hire me
-              </button>
-              <button className="block border-2 rounded-full  text-sm md:text-md m-2 py-1 px-4 md:px-12">
+                Contact me
+              </a>
+              <a href="/Mirindra_cv.pdf" download="Mirindra CV"
+              className="block border-2 rounded-full hover:bg-gray-100 hover:text-blue-800
+              hover:shadow-lg hover:shadow-blue-900 transition text-sm md:text-md m-2 py-1 px-4 md:px-12">
                 Resume
-              </button>
+              </a>
             </div>
           </section>
         </div>

@@ -1,11 +1,20 @@
+import { FaLaptopCode, FaPalette, FaTools} from "react-icons/fa";
+import {BsLightningChargeFill} from "react-icons/bs";
+import {CgWebsite} from "react-icons/cg";
+import {TbApi} from "react-icons/tb";
+import {GiCircuitry} from "react-icons/gi";
+import {VscDatabase} from "react-icons/vsc";
+import {PiBrainDuotone} from "react-icons/pi";
+
 export default function Services(){
-    return <section id="services" className="container w-screen pt-16">
-        <h2 className="flex w-full justify-center mb-4">Services</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-rows-3 justify-center gap-4">
-        <div className="flex flex-col border-2 border-white-200 rounded-lg divide-y
-        divide-gray-300 p-4">
+    return <section id="services" className="flex flex-col justify-center w-full pt-16">
+        <h2 className="text-center sm:text-2xl font-bold mb-4">Services</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-rows-3 justify-items-center gap-4">
+        <div className="flex flex-col rounded-lg divide-y 
+        divide-gray-300 p-4 shadow-inner shadow-blue-900 hover:shadow-lg hover:shadow-blue-900
+        bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900">
             <div id="card-header" className="w-full mx-auto">
-                <h3>Web Application Development</h3>
+                <h3 className="flex items-center gap-4"><FaLaptopCode className="text-red-500 w-7 h-7"/> Web Application Development</h3>
             </div>
             <div id="card-body">
                 <p>
@@ -15,15 +24,16 @@ export default function Services(){
                 </p>
             </div>
             <div id="card-footer">
-                <p>
-                    <span>Tech stack : </span>
-                    React, Redux, Next.js, Node.js, Express, MongoDB, SQL, Webpack, Adonis, Symfony
-                </p>
+                <button>learn more...</button>
             </div>
         </div>
-        <div className="flex flex-col border-2 border-white-200 rounded-lg divide-y divide-gray-300 p-4">
+        <div className="flex flex-col rounded-lg divide-y 
+        divide-gray-300 p-4 shadow-inner shadow-blue-900 hover:shadow-lg hover:shadow-blue-900
+        bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900">
             <div id="card-header" className="w-full mx-auto">
-                <h3>Web Design and Development</h3>
+                <h3 className="flex items-center gap-4">
+                    <FaPalette className="text-red-500 w-7 h-7"/>
+                    Web Design {"\u0026"} Development</h3>
             </div>
             <div id="card-body">
                 <p>
@@ -33,16 +43,17 @@ export default function Services(){
                 </p>
             </div>
             <div id="card-footer">
-                <p>
-                    <span>Tech stack</span>
-                    HTLM, CSS, Tailwind, Bootstrap, Twig, PHP, Laravel, Symfony,
-                    React, Redux, Next.js, Node.js, Express, MongoDB, SQL, Webpack, Adonis
-                </p>
+                <button>learn more...</button>
             </div>
         </div>
-        <div className="flex flex-col border-2 border-white-200 rounded-lg divide-y divide-gray-300 p-4">
+        <div className="flex flex-col rounded-lg divide-y 
+        divide-gray-300 p-4 shadow-inner shadow-blue-900 hover:shadow-lg hover:shadow-blue-900
+        bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900">
             <div id="card-header" className="w-full mx-auto">
-                <h3>Real-Time Applications</h3>
+                <h3 className="flex items-center gap-4">
+                    <BsLightningChargeFill className="text-red-500 w-7 h-7"/>
+                    Real-Time Applications
+                </h3>
             </div>
             <div id="card-body">
                 <p>
@@ -51,15 +62,17 @@ export default function Services(){
                 </p>
             </div>
             <div id="card-footer">
-                <p>
-                    <span>Tech stack</span>
-                    Websockets, Socket.io, Node.js, PHP
-                </p>
+                <button>learn more...</button>
             </div>
         </div>
-        <div className="flex flex-col border-2 border-white-200 rounded-lg divide-y divide-gray-300 p-4">
+        <div className="flex flex-col rounded-lg divide-y 
+        divide-gray-300 p-4 shadow-inner shadow-blue-900 hover:shadow-lg hover:shadow-blue-900
+        bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900">
             <div id="card-header" className="w-full mx-auto">
-                <h3>Portfolio and Personal Websites Creation</h3>
+                <h3 className="flex items-center gap-4">
+                    <CgWebsite className="text-red-500 w-7 h-7"/>
+                    Portfolio {"\u0026"} Personal Websites Creation
+                </h3>
             </div>
             <div id="card-body">
                 <p>
@@ -68,15 +81,17 @@ export default function Services(){
                 </p>
             </div>
             <div id="card-footer">
-                <p>
-                    <span>Tech stack</span>
-                    Next.js, React, Vue.js, JavaScript, HTML, CSS, Tailwind, Bootstrap, Node.js, Symfony, TypeScript
-                </p>
+                <button>learn more...</button>
             </div>
         </div>
-        <div className="flex flex-col border-2 border-white-200 rounded-lg divide-y divide-gray-300 p-4">
+        <div className="flex flex-col rounded-lg divide-y 
+        divide-gray-300 p-4 shadow-inner shadow-blue-900 hover:shadow-lg hover:shadow-blue-900
+        bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900">
             <div id="card-header" className="w-full mx-auto">
-                <h3>API Development and Intergration</h3>
+                <h3 className="flex items-center gap-4">
+                    <TbApi className="text-red-500 w-7 h-7"/>
+                    API Development {"\u0026"} Intergration
+                </h3>
             </div>
             <div id="card-body">
                 <p>
@@ -85,15 +100,17 @@ export default function Services(){
                 </p>
             </div>
             <div id="card-footer">
-                <p>
-                    <span>Tech stack</span>
-                    MySQL, PostgreSQL, MS SQL Server, MongoDB, Node.js, PHP, Python
-                </p>
+                <button>learn more...</button>
             </div>
         </div>
-        <div className="flex flex-col border-2 border-white-200 rounded-lg divide-y divide-gray-300 p-4">
+        <div className="flex flex-col rounded-lg divide-y 
+        divide-gray-300 p-4 shadow-inner shadow-blue-900 hover:shadow-lg hover:shadow-blue-900
+        bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900">
             <div id="card-header" className="w-full mx-auto">
-                <h3>Electronic Systems Design</h3>
+                <h3 className="flex items-center gap-4">
+                    <GiCircuitry className="text-red-500 w-7 h-7"/>
+                    Electronic Systems Design
+                </h3>
             </div>
             <div id="card-body">
                 <p>
@@ -102,15 +119,17 @@ export default function Services(){
                 </p>
             </div>
             <div id="card-footer">
-                <p>
-                    <span>Tech stack</span>
-                    PLD, ESP32, Arduino, PIC, Sensors, PVsyst, Proteus, Kicad, Matlab
-                </p>
+                <button>learn more...</button>
             </div>
         </div>
-        <div className="flex flex-col border-2 border-white-200 rounded-lg divide-y divide-gray-300 p-4">
+        <div className="flex flex-col rounded-lg divide-y 
+        divide-gray-300 p-4 shadow-inner shadow-blue-900 hover:shadow-lg hover:shadow-blue-900
+        bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900">
             <div id="card-header" className="w-full mx-auto">
-                <h3>Technical Maintenace and Optimization</h3>
+                <h3 className="flex items-center gap-4">
+                    <FaTools className="text-red-500 w-7 h-7"/>
+                    Technical Maintenace {"\u0026"} Optimization
+                </h3>
             </div>
             <div id="card-body">
                 <p>
@@ -119,15 +138,17 @@ export default function Services(){
                 </p>
             </div>
             <div id="card-footer">
-                <p>
-                    <span>Tech stack</span>
-                    SEO tools, Devops tools
-                </p>
+                <button>learn more...</button>
             </div>
         </div>
-        <div className="flex flex-col border-2 border-white-200 rounded-lg divide-y divide-gray-300 p-4">
+        <div className="flex flex-col rounded-lg divide-y 
+        divide-gray-300 p-4 shadow-inner shadow-blue-900 hover:shadow-lg hover:shadow-blue-900
+        bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900">
             <div id="card-header" className="w-full mx-auto">
-                <h3>Database Management and Optimization</h3>
+                <h3 className="flex items-center gap-4">
+                    <VscDatabase className="text-red-500 w-7 h-7"/>
+                    Database Management {"\u0026"} Optimization
+                </h3>
             </div>
             <div id="card-body">
                 <p>
@@ -136,15 +157,17 @@ export default function Services(){
                 </p>
             </div>
             <div id="card-footer">
-                <p>
-                    <span>Tech stack</span>
-                    SQL, MongoDB, MySQL, PostgreSQL, SQL server
-                </p>
+                <button>learn more...</button>
             </div>
         </div>
-        <div className="flex flex-col border-2 border-white-200 rounded-lg divide-y divide-gray-300 p-4">
+        <div className="flex flex-col rounded-lg divide-y 
+        divide-gray-300 p-4 shadow-inner shadow-blue-900 hover:shadow-lg hover:shadow-blue-900
+        bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900">
             <div id="card-header" className="w-full mx-auto">
-                <h3>AI API Integration</h3>
+                <h3 className="flex items-center gap-4">
+                    <PiBrainDuotone className="text-red-500 w-7 h-7"/>
+                    AI API Integration
+                </h3>
             </div>
             <div id="card-body">
                 <p>
@@ -153,10 +176,7 @@ export default function Services(){
                 </p>
             </div>
             <div id="card-footer">
-                <p>
-                    <span>Tech stack</span>
-                    OpenAI API, Gemini API, Hugging Face, Python scripts, Node.js
-                </p>
+                <button>learn more...</button>
             </div>
         </div>
         </div>

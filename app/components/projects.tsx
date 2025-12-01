@@ -1,13 +1,18 @@
+import { FaTools, FaCode, FaCogs, FaUsers } from "react-icons/fa"
+
 export default function Projects(){
     return <section id="skills" className="container w-screen pt-16 mx-auto">
-        <h2 className="flex w-full justify-center">Skills</h2>
+        <h2 className="flex w-full justify-center sm:text-2xl font-bold">Skills</h2>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
         <div className="flex flex-col p-4">
             <div>
-                <h3>Technical skills</h3>
+                <h3 className="flex gap-2 text-lg sm:text-xl font-bold">
+                    <FaCogs className="text-blue-600 w-7 h-7"/>
+                    Technical skills
+                </h3>
             </div>
             <div>
-                <ul>
+                <ul className="text-sm sm:text-base list-disc ml-6">
                     <li>
                         <span>Frontend : </span>
                         HTML5, CSS3, JavaScript ES6+, TypeScript, React, Vue, Next, Redux, Bootstrap,
@@ -15,7 +20,7 @@ export default function Projects(){
                     </li>
                     <li>
                         <span>Backend : </span>
-                        Node, Express, Adonis, PHP, Laravel, PHP
+                        Node, Express, Adonis, PHP, Laravel, Symfony
                     </li>
                     <li>
                         <span>Databases : </span>
@@ -37,15 +42,22 @@ export default function Projects(){
                         <span>Energy {"\u0026"} Simulation : </span>
                         PVsyst, MATLAB
                     </li>
+                    <li>
+                        <span>Devops tools : </span>
+                        GCP, AWS, Git, GitHub, Docker, Kubernetes
+                    </li>
                 </ul>
             </div>
         </div>
         <div className="flex flex-col p-4">
             <div>
-                <h3>Development skills</h3>
+                <h3 className="flex gap-2 sm:text-xl text-lg font-bold">
+                    <FaCode className="text-blue-600 w-7 h-7"/>
+                    Development skills
+                </h3>
             </div>
             <div>
-                <ul>
+                <ul className="text-sm sm:text-base list-disc ml-6">
                     <li>Fullstack JavaScript and PHP development</li>
                     <li>Building real-time applications</li>
                     <li>API development and third-party integration</li>
@@ -59,10 +71,13 @@ export default function Projects(){
         </div>
         <div className="flex flex-col p-4">
             <div>
-                <h3>Tools {"\u0026"} Technologies</h3>
+                <h3 className="flex gap-2 text-lg sm:text-xl font-bold">
+                    <FaTools className="text-blue-600 w-7 h-7"/>
+                    Tools {"\u0026"} Technologies
+                </h3>
             </div>
             <div>
-                <ul>
+                <ul className="text-sm sm:text-base list-disc ml-6">
                     <li>Git, Github</li>
                     <li>Webpack, NPM</li>
                     <li>Linux(CentOS, Ubuntu, Debian, Kali)</li>
@@ -75,10 +90,13 @@ export default function Projects(){
         </div>
         <div className="flex flex-col p-4">
             <div>
-                <h3>Soft Skills</h3>
+                <h3 className="flex gap-2 text-lg sm:text-xl font-bold">
+                    <FaUsers className="text-blue-600 w-7 h-7"/>
+                    Soft Skills
+                </h3>
             </div>
             <div>
-                <ul>
+                <ul className="text-sm sm:text-base list-disc ml-6">
                     <li>Problem-solving and analytical thinking</li>
                     <li>Adaptability and quick learning</li>
                     <li>Clear Communication</li>
