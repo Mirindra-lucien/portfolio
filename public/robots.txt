@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://mirindra.vercel.app
+
+# Sitemaps
+Sitemap: https://mirindra.vercel.app/sitemap.xml
