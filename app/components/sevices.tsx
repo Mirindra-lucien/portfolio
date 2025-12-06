@@ -11,8 +11,8 @@ export default function Services(){
         <h2 className="text-center sm:text-2xl font-bold mb-4">Services</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-rows-3 justify-items-center gap-4">
         <div className="flex flex-col rounded-lg divide-y 
-        divide-gray-300 p-4 shadow-inner shadow-blue-900 hover:shadow-lg hover:shadow-blue-900
-        bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900">
+        divide-foreground p-4 shadow-inner shadow-secondary hover:shadow-lg hover:shadow-secondary
+        dark:bg-gradient-to-b dark:from-background dark:via-background dark:to-secondary">
             <div id="card-header" className="w-full mx-auto">
                 <h3 className="flex items-center gap-4"><FaLaptopCode className="text-red-500 w-7 h-7"/> Web Application Development</h3>
             </div>
@@ -28,8 +28,8 @@ export default function Services(){
             </div>
         </div>
         <div className="flex flex-col rounded-lg divide-y 
-        divide-gray-300 p-4 shadow-inner shadow-blue-900 hover:shadow-lg hover:shadow-blue-900
-        bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900">
+        divide-foreground p-4 shadow-inner shadow-secondary hover:shadow-lg hover:shadow-secondary
+        dark:bg-gradient-to-b dark:from-background dark:via-background dark:to-secondary">
             <div id="card-header" className="w-full mx-auto">
                 <h3 className="flex items-center gap-4">
                     <FaPalette className="text-red-500 w-7 h-7"/>
@@ -47,8 +47,8 @@ export default function Services(){
             </div>
         </div>
         <div className="flex flex-col rounded-lg divide-y 
-        divide-gray-300 p-4 shadow-inner shadow-blue-900 hover:shadow-lg hover:shadow-blue-900
-        bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900">
+        divide-foreground p-4 shadow-inner shadow-secondary hover:shadow-lg hover:shadow-secondary
+        dark:bg-gradient-to-b dark:from-background dark:via-background dark:to-secondary">
             <div id="card-header" className="w-full mx-auto">
                 <h3 className="flex items-center gap-4">
                     <BsLightningChargeFill className="text-red-500 w-7 h-7"/>
@@ -66,8 +66,8 @@ export default function Services(){
             </div>
         </div>
         <div className="flex flex-col rounded-lg divide-y 
-        divide-gray-300 p-4 shadow-inner shadow-blue-900 hover:shadow-lg hover:shadow-blue-900
-        bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900">
+        divide-foreground p-4 shadow-inner shadow-secondary hover:shadow-lg hover:shadow-secondary
+        dark:bg-gradient-to-b dark:from-background dark:via-background dark:to-secondary">
             <div id="card-header" className="w-full mx-auto">
                 <h3 className="flex items-center gap-4">
                     <CgWebsite className="text-red-500 w-7 h-7"/>
@@ -85,8 +85,8 @@ export default function Services(){
             </div>
         </div>
         <div className="flex flex-col rounded-lg divide-y 
-        divide-gray-300 p-4 shadow-inner shadow-blue-900 hover:shadow-lg hover:shadow-blue-900
-        bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900">
+        divide-foreground p-4 shadow-inner shadow-secondary hover:shadow-lg hover:shadow-secondary
+        dark:bg-gradient-to-b dark:from-background dark:via-background dark:to-secondary">
             <div id="card-header" className="w-full mx-auto">
                 <h3 className="flex items-center gap-4">
                     <TbApi className="text-red-500 w-7 h-7"/>
@@ -104,8 +104,8 @@ export default function Services(){
             </div>
         </div>
         <div className="flex flex-col rounded-lg divide-y 
-        divide-gray-300 p-4 shadow-inner shadow-blue-900 hover:shadow-lg hover:shadow-blue-900
-        bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900">
+        divide-foreground p-4 shadow-inner shadow-secondary hover:shadow-lg hover:shadow-secondary
+        dark:bg-gradient-to-b dark:from-background dark:via-background dark:to-secondary">
             <div id="card-header" className="w-full mx-auto">
                 <h3 className="flex items-center gap-4">
                     <GiCircuitry className="text-red-500 w-7 h-7"/>
@@ -123,8 +123,8 @@ export default function Services(){
             </div>
         </div>
         <div className="flex flex-col rounded-lg divide-y 
-        divide-gray-300 p-4 shadow-inner shadow-blue-900 hover:shadow-lg hover:shadow-blue-900
-        bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900">
+        divide-foreground p-4 shadow-inner shadow-secondary hover:shadow-lg hover:shadow-secondary
+        dark:bg-gradient-to-b dark:from-background dark:via-background dark:to-secondary">
             <div id="card-header" className="w-full mx-auto">
                 <h3 className="flex items-center gap-4">
                     <FaTools className="text-red-500 w-7 h-7"/>
@@ -142,8 +142,8 @@ export default function Services(){
             </div>
         </div>
         <div className="flex flex-col rounded-lg divide-y 
-        divide-gray-300 p-4 shadow-inner shadow-blue-900 hover:shadow-lg hover:shadow-blue-900
-        bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900">
+        divide-foreground p-4 shadow-inner shadow-secondary hover:shadow-lg hover:shadow-secondary
+        dark:bg-gradient-to-b dark:from-background dark:via-background dark:to-secondary">
             <div id="card-header" className="w-full mx-auto">
                 <h3 className="flex items-center gap-4">
                     <VscDatabase className="text-red-500 w-7 h-7"/>
@@ -161,8 +161,8 @@ export default function Services(){
             </div>
         </div>
         <div className="flex flex-col rounded-lg divide-y 
-        divide-gray-300 p-4 shadow-inner shadow-blue-900 hover:shadow-lg hover:shadow-blue-900
-        bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900">
+        divide-foreground p-4 shadow-inner shadow-secondary hover:shadow-lg hover:shadow-secondary
+        dark:bg-gradient-to-b dark:from-background dark:via-background dark:to-secondary">
             <div id="card-header" className="w-full mx-auto">
                 <h3 className="flex items-center gap-4">
                     <PiBrainDuotone className="text-red-500 w-7 h-7"/>

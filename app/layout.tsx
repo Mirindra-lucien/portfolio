@@ -19,7 +19,16 @@ export const metadata: Metadata = {
   description: "Explore my projects in web development, real-time applications, and comprehensive technical solutions using Javascript, React, Vue, Node, Symfony and Laravel",
   keywords: "Mirindra, portfolio, web developer, full stack, web project",
   authors: {name: "LANTOSOA Mirindra Lucien"},
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false
+    }
+  },
   icons: {icon: "/icon.png"},
   openGraph: {
     title: "Mirindra Portfolio - Fullstack Developer",
@@ -38,7 +47,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-arriere overflow-auto`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-auto`}
       >
         <Navbar/>
         {children}

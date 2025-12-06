@@ -19,12 +19,12 @@ export default function Navbar(){
     return (
         <nav className="relative p-0 w-full">
         {
-          openDrawer ? <div className="sm:hidden flex flex-col fixed top-0 left-0 w-screen h-auto  bg-arriere z-50 m-0 pt-16 pb-5">
+          openDrawer ? <div className="sm:hidden flex flex-col fixed top-0 left-0 w-screen h-auto z-50 m-0 pt-16 pb-5 bg-background">
             {
               navigationLinks.map((value, index) => (
                 <a key={index} href={value.href}
-                  className="flex items-center gap-3 w-screen m-1 py-2 px-4 shadow-inner shadow-blue-900
-                  rounded-md bg-gradient-to-b from-arriere via-arriere via-arriere to-blue-900"
+                  className="flex items-center gap-3 w-screen m-1 py-2 px-4 shadow-inner shadow-secondary
+                  rounded-md dark:bg-gradient-to-b dark:from-background dark:via-background dark:to-secondary"
                   onClick={handleClick}
                 >
                   {value.icon}
@@ -35,7 +35,7 @@ export default function Navbar(){
           </div> : <></>
         }
           
-          <div className="fixed top-0 left-0 w-screen bg-nav text-white py-4 z-50">
+          <div className="fixed top-0 left-0 w-screen bg-third text-white py-4 z-50">
             <div className="container mx-auto flex justify-between items-center">
               <div className="flex items-center pl-4 sm:pl-0">
                 <Link href="/" className="text-sm sm:text-lg font-bold hover:text-gray-300">Mirindra</Link>

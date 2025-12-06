@@ -18,23 +18,23 @@ export default function Home() {
           fill
           className="block sm:hidden object-cover"
         />
-        <div className="absolute inset-0 w-full h-full bg-arriere bg-opacity-80"/>
+        <div className="absolute inset-0 w-full h-full bg-[#030418] dark:opacity-80 opacity-50"/>
         <div className="absolute top-1/3 w-full">
           <section>
-            <h2 className="text-l text-center text-secondary">{"Hello, I'm Mirindra"}</h2>
-            <h1 className="text-xl sm:text-3xl text-center">
+            <h2 className="text-l text-center text-blue-400">{"Hello, I'm Mirindra"}</h2>
+            <h1 className="text-xl sm:text-3xl text-center text-[#FFFFFF]">
               Fullstack web developer<br/>
               {"\u0026"}<br/>Electronics engineer and automation
             </h1>
             <div className="flex justify-center">
-              <a href="/#contacts" className="block border-2 rounded-full border-secondary text-sm md:text-md shadow-md m-2 p-1 px-2 md:px-8
-                hover:bg-secondary hover:text-blue-700 hover:shadow-lg hover:shadow-secondary transition text-secondary"
+              <a href="/#contacts" className="block border-2 rounded-full border-blue-400 text-sm md:text-md shadow-md m-2 p-1 px-4 md:px-8
+                hover:bg-blue-400 hover:text-foreground hover:shadow-lg hover:shadow-blue-400 transition text-blue-400"
               >
                 Contact me
               </a>
               <a href="/Mirindra_cv.pdf" download="Mirindra CV"
-              className="block border-2 rounded-full hover:bg-gray-100 hover:text-blue-800
-              hover:shadow-lg hover:shadow-blue-900 transition text-sm md:text-md m-2 py-1 px-4 md:px-12">
+              className="block border-2 rounded-full hover:bg-[#FFFFFF] hover:text-[#010133]
+              hover:shadow-lg hover:shadow-blue-900 transition text-[#FFFFFF] text-sm md:text-md m-2 py-1 px-4 md:px-12">
                 Resume
               </a>
             </div>
