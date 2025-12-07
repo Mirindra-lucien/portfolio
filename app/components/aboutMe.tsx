@@ -28,7 +28,7 @@ function AboutMe(){
             <SiExpress className="w-10 h-10"/>
         </div>
         <h2 className="text-center sm:text-2xl font-bold mb-4">About me</h2>
-        <div className="flex">
+        <div className="flex items-center">
             <div className="flex flex-col sm:hidden pl-2 gap-2">
                 <SiJavascript className="w-5 h-5"/>
                 <SiReact className="w-5 h-5"/>
